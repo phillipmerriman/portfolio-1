@@ -41,13 +41,31 @@ hr {
 	background-image: url("hr-tamer-yilmaz.png");
 }
 
-/* anchor tag design */
+/* anchor tag design and pseudo-class */
 
 a {
   font-family: arial;
   font-weight: bold;
   text-decoration: none;
   color: blue;
+}
+
+a:link {
+   color: blue;  
+}
+
+a:visited { 
+  color: red;   
+}
+
+a:hover { 
+  color: green;
+  font-weight: 900;
+  text-decoration: underline; 
+}
+
+a:active { 
+  color: pink;  
 }
 
 /* Cant figure out why the footer doesnt go all the way to the bottom of the page yet... */
